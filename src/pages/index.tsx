@@ -15,6 +15,7 @@ import { z } from "zod";
 import { RenderControls } from "../components/RenderControls";
 import { Tips } from "../components/Tips/Tips";
 import { Spacing } from "../components/Spacing";
+import { Button as LoginButton } from "../components/LoginButton/LoginButton";
 
 const container: React.CSSProperties = {
   maxWidth: 768,
@@ -79,6 +80,7 @@ const Home: NextPage = () => {
         <Spacing></Spacing>
         <Spacing></Spacing>
         <Tips></Tips>
+        <LoginButton >xxxx</LoginButton>
       </div>
     </div>
   );
