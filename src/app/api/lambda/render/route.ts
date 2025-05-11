@@ -3,17 +3,13 @@ import {
   renderMediaOnLambda,
   speculateFunctionName,
 } from "@remotion/lambda/client";
-import { DISK, RAM, REGION, SITE_NAME, TIMEOUT } from "@/config.mjs";
 import { executeApi } from "@/src/helpers/api-response";
+import { DISK, RAM, REGION, SITE_NAME, TIMEOUT } from "@/config.mjs";
 import { RenderRequest } from "@/types/schema";
 
-const render = executeApi<RenderMediaOnLambdaOutput, typeof RenderRequest>(
+export const POST = executeApi<RenderMediaOnLambdaOutput, typeof RenderRequest>(
   RenderRequest,
   async (req, body) => {
-    if (req.method !== "POST") {
-      throw new Error("Only POST requests are allowed");
-    }
-
     if (
       !process.env.AWS_ACCESS_KEY_ID &&
       !process.env.REMOTION_AWS_ACCESS_KEY_ID
@@ -52,5 +48,3 @@ const render = executeApi<RenderMediaOnLambdaOutput, typeof RenderRequest>(
     return result;
   },
 );
-
-export default render;

@@ -5,15 +5,11 @@ import {
 } from "@remotion/lambda/client";
 import { DISK, RAM, REGION, TIMEOUT } from "@/config.mjs";
 import { executeApi } from "@/src/helpers/api-response";
-import { ProgressResponse, ProgressRequest } from "@/types/schema";
+import { ProgressRequest, ProgressResponse } from "@/types/schema";
 
-const progress = executeApi<ProgressResponse, typeof ProgressRequest>(
+export const POST = executeApi<ProgressResponse, typeof ProgressRequest>(
   ProgressRequest,
   async (req, body) => {
-    if (req.method !== "POST") {
-      throw new Error("Only POST requests are allowed");
-    }
-
     const renderProgress = await getRenderProgress({
       bucketName: body.bucketName,
       functionName: speculateFunctionName({
@@ -46,5 +42,3 @@ const progress = executeApi<ProgressResponse, typeof ProgressRequest>(
     };
   },
 );
-
-export default progress;
