@@ -1,8 +1,10 @@
+"use client";
+
 import { Player } from "@remotion/player";
 import type { NextPage } from "next";
-import Head from "next/head";
+
 import React, { useMemo, useState } from "react";
-import { Main } from "../remotion/MyComp/Main";
+import { Main } from "@/src/remotion/MyComp/Main";
 import {
   CompositionProps,
   defaultMyCompProps,
@@ -10,12 +12,18 @@ import {
   VIDEO_FPS,
   VIDEO_HEIGHT,
   VIDEO_WIDTH,
-} from "../../types/constants";
+} from "@/types/constants";
 import { z } from "zod";
-import { RenderControls } from "../components/RenderControls";
-import { Tips } from "../components/Tips/Tips";
-import { Spacing } from "../components/Spacing";
-import { Button as LoginButton } from "../components/LoginButton/LoginButton";
+import { RenderControls } from "@/src/components/RenderControls";
+import { Tips } from "@/src/components/Tips/Tips";
+import { Spacing } from "@/src/components/Spacing";
+
+// export const metadata: Metadata = {
+//   title: 'Remotion and Next.js',
+//   description: 'Remotion and Next.js',
+//   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+// }
+
 
 const container: React.CSSProperties = {
   maxWidth: 768,
@@ -43,18 +51,10 @@ const Home: NextPage = () => {
       title: text,
     };
   }, [text]);
+  // <link rel="icon" href="/favicon.ico" />
 
   return (
     <div>
-      <Head>
-        <title>Remotion and Next.js</title>
-        <meta name="description" content="Remotion and Next.js" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <div style={container}>
         <div className="cinematics" style={outer}>
           <Player
@@ -80,7 +80,6 @@ const Home: NextPage = () => {
         <Spacing></Spacing>
         <Spacing></Spacing>
         <Tips></Tips>
-        <LoginButton >xxxx</LoginButton>
       </div>
     </div>
   );
