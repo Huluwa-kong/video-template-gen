@@ -56,7 +56,8 @@ export default function Nav() {
           } else {
             console.log('Redirecting to Google login...')
           }
-        }}>Sign in <LoadingIcon loading={loading} /></Button>
+        }}>Sign in
+          {loading ? <LoadingIcon loading={loading} /> : <></>}</Button>
       }
 
     </div>
