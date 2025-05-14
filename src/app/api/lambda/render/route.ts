@@ -10,6 +10,7 @@ import { RenderRequest } from "@/types/schema";
 export const POST = executeApi<RenderMediaOnLambdaOutput, typeof RenderRequest>(
   RenderRequest,
   async (req, body) => {
+    throw new Error("Only POST requests are allowed");
     if (
       !process.env.AWS_ACCESS_KEY_ID &&
       !process.env.REMOTION_AWS_ACCESS_KEY_ID
