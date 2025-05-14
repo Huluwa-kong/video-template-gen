@@ -1,0 +1,994 @@
+[
+  {
+    "word": "US",
+    "offsetMs": 50
+  },
+  {
+    "word": "inflation",
+    "offsetMs": 487.5
+  },
+  {
+    "word": "slowed",
+    "offsetMs": 1125
+  },
+  {
+    "word": "to",
+    "offsetMs": 1487.5
+  },
+  {
+    "word": "its",
+    "offsetMs": 1587.5
+  },
+  {
+    "word": "lowest",
+    "offsetMs": 1775
+  },
+  {
+    "word": "rate",
+    "offsetMs": 2200
+  },
+  {
+    "word": "in",
+    "offsetMs": 2475
+  },
+  {
+    "word": "more",
+    "offsetMs": 2562.5
+  },
+  {
+    "word": "than",
+    "offsetMs": 2825
+  },
+  {
+    "word": "four",
+    "offsetMs": 2975
+  },
+  {
+    "word": "years",
+    "offsetMs": 3262.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 3812.5
+  },
+  {
+    "word": "an",
+    "offsetMs": 4050
+  },
+  {
+    "word": "unexpected",
+    "offsetMs": 4200
+  },
+  {
+    "word": "and",
+    "offsetMs": 4925
+  },
+  {
+    "word": "welcome",
+    "offsetMs": 5050
+  },
+  {
+    "word": "development",
+    "offsetMs": 5400
+  },
+  {
+    "word": "at",
+    "offsetMs": 5987.5
+  },
+  {
+    "word": "a",
+    "offsetMs": 6075
+  },
+  {
+    "word": "time",
+    "offsetMs": 6150
+  },
+  {
+    "word": "when",
+    "offsetMs": 6512.5
+  },
+  {
+    "word": "President",
+    "offsetMs": 6687.5
+  },
+  {
+    "word": "Donald",
+    "offsetMs": 7187.5
+  },
+  {
+    "word": "Trump’s",
+    "offsetMs": 7562.5
+  },
+  {
+    "word": "dramatically",
+    "offsetMs": 7950
+  },
+  {
+    "word": "escalated",
+    "offsetMs": 8575
+  },
+  {
+    "word": "tariffs",
+    "offsetMs": 9200
+  },
+  {
+    "word": "are",
+    "offsetMs": 9662.5
+  },
+  {
+    "word": "expected",
+    "offsetMs": 9850
+  },
+  {
+    "word": "to",
+    "offsetMs": 10425
+  },
+  {
+    "word": "cause",
+    "offsetMs": 10525
+  },
+  {
+    "word": "prices",
+    "offsetMs": 10837.5
+  },
+  {
+    "word": "to",
+    "offsetMs": 11275
+  },
+  {
+    "word": "rise",
+    "offsetMs": 11412.5
+  },
+  {
+    "word": ".",
+    "offsetMs": 11975
+  },
+  {
+    "word": "Consumer",
+    "offsetMs": 12825
+  },
+  {
+    "word": "prices",
+    "offsetMs": 13400
+  },
+  {
+    "word": "rose",
+    "offsetMs": 13875
+  },
+  {
+    "word": "0.2%",
+    "offsetMs": 14175
+  },
+  {
+    "word": "last",
+    "offsetMs": 15400
+  },
+  {
+    "word": "month",
+    "offsetMs": 15712.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 16175
+  },
+  {
+    "word": "bringing",
+    "offsetMs": 16462.5
+  },
+  {
+    "word": "the",
+    "offsetMs": 16800
+  },
+  {
+    "word": "annual",
+    "offsetMs": 16925
+  },
+  {
+    "word": "inflation",
+    "offsetMs": 17375
+  },
+  {
+    "word": "rate",
+    "offsetMs": 17975
+  },
+  {
+    "word": "to",
+    "offsetMs": 18212.5
+  },
+  {
+    "word": "2.3%",
+    "offsetMs": 18325
+  },
+  {
+    "word": ",",
+    "offsetMs": 19700
+  },
+  {
+    "word": "an",
+    "offsetMs": 19962.5
+  },
+  {
+    "word": "unexpectedly",
+    "offsetMs": 20087.5
+  },
+  {
+    "word": "cooler",
+    "offsetMs": 20900
+  },
+  {
+    "word": "reading",
+    "offsetMs": 21275
+  },
+  {
+    "word": "than",
+    "offsetMs": 21612.5
+  },
+  {
+    "word": "the",
+    "offsetMs": 21737.5
+  },
+  {
+    "word": "2.4%",
+    "offsetMs": 21850
+  },
+  {
+    "word": "increase",
+    "offsetMs": 23037.5
+  },
+  {
+    "word": "seen",
+    "offsetMs": 23487.5
+  },
+  {
+    "word": "in",
+    "offsetMs": 23725
+  },
+  {
+    "word": "March",
+    "offsetMs": 23812.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 24337.5
+  },
+  {
+    "word": "according",
+    "offsetMs": 24575
+  },
+  {
+    "word": "to",
+    "offsetMs": 25112.5
+  },
+  {
+    "word": "the",
+    "offsetMs": 25200
+  },
+  {
+    "word": "latest",
+    "offsetMs": 25325
+  },
+  {
+    "word": "Consumer",
+    "offsetMs": 25725
+  },
+  {
+    "word": "Price",
+    "offsetMs": 26237.5
+  },
+  {
+    "word": "Index",
+    "offsetMs": 26562.5
+  },
+  {
+    "word": "data",
+    "offsetMs": 26975
+  },
+  {
+    "word": "released",
+    "offsetMs": 27275
+  },
+  {
+    "word": "Tuesday",
+    "offsetMs": 27737.5
+  },
+  {
+    "word": "by",
+    "offsetMs": 28237.5
+  },
+  {
+    "word": "the",
+    "offsetMs": 28425
+  },
+  {
+    "word": "Bureau",
+    "offsetMs": 28550
+  },
+  {
+    "word": "of",
+    "offsetMs": 28912.5
+  },
+  {
+    "word": "Labor",
+    "offsetMs": 29025
+  },
+  {
+    "word": "Statistics",
+    "offsetMs": 29337.5
+  },
+  {
+    "word": ".",
+    "offsetMs": 30187.5
+  },
+  {
+    "word": "It’s",
+    "offsetMs": 31050
+  },
+  {
+    "word": "the",
+    "offsetMs": 31300
+  },
+  {
+    "word": "lowest",
+    "offsetMs": 31425
+  },
+  {
+    "word": "annual",
+    "offsetMs": 31862.5
+  },
+  {
+    "word": "rate",
+    "offsetMs": 32250
+  },
+  {
+    "word": "since",
+    "offsetMs": 32537.5
+  },
+  {
+    "word": "February 2021",
+    "offsetMs": 32837.5
+  },
+  {
+    "word": ".",
+    "offsetMs": 34375
+  },
+  {
+    "word": "However",
+    "offsetMs": 35225
+  },
+  {
+    "word": ",",
+    "offsetMs": 35887.5
+  },
+  {
+    "word": "what’s",
+    "offsetMs": 36087.5
+  },
+  {
+    "word": "been",
+    "offsetMs": 36337.5
+  },
+  {
+    "word": "a",
+    "offsetMs": 36500
+  },
+  {
+    "word": "yearslong",
+    "offsetMs": 36537.5
+  },
+  {
+    "word": "unwinding",
+    "offsetMs": 37150
+  },
+  {
+    "word": "of",
+    "offsetMs": 37712.5
+  },
+  {
+    "word": "post-pandemic",
+    "offsetMs": 37825
+  },
+  {
+    "word": "inflation",
+    "offsetMs": 38675
+  },
+  {
+    "word": "isn’t",
+    "offsetMs": 39287.5
+  },
+  {
+    "word": "expected",
+    "offsetMs": 39587.5
+  },
+  {
+    "word": "to",
+    "offsetMs": 40087.5
+  },
+  {
+    "word": "last",
+    "offsetMs": 40187.5
+  },
+  {
+    "word": ".",
+    "offsetMs": 40737.5
+  },
+  {
+    "word": "“The",
+    "offsetMs": 41600
+  },
+  {
+    "word": "larger",
+    "offsetMs": 41787.5
+  },
+  {
+    "word": "tariff-related",
+    "offsetMs": 42187.5
+  },
+  {
+    "word": "price",
+    "offsetMs": 42937.5
+  },
+  {
+    "word": "adjustments",
+    "offsetMs": 43262.5
+  },
+  {
+    "word": "are",
+    "offsetMs": 43875
+  },
+  {
+    "word": "likely",
+    "offsetMs": 44050
+  },
+  {
+    "word": "to",
+    "offsetMs": 44425
+  },
+  {
+    "word": "come",
+    "offsetMs": 44537.5
+  },
+  {
+    "word": "over",
+    "offsetMs": 44800
+  },
+  {
+    "word": "the",
+    "offsetMs": 45000
+  },
+  {
+    "word": "next",
+    "offsetMs": 45100
+  },
+  {
+    "word": "few",
+    "offsetMs": 45462.5
+  },
+  {
+    "word": "months",
+    "offsetMs": 45625
+  },
+  {
+    "word": ",",
+    "offsetMs": 46150
+  },
+  {
+    "word": "” Alexandra",
+    "offsetMs": 46412.5
+  },
+  {
+    "word": "Wilson-Elizondo",
+    "offsetMs": 47062.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 48225
+  },
+  {
+    "word": "co-head",
+    "offsetMs": 48450
+  },
+  {
+    "word": "and",
+    "offsetMs": 49062.5
+  },
+  {
+    "word": "co-chief",
+    "offsetMs": 49237.5
+  },
+  {
+    "word": "investment",
+    "offsetMs": 49712.5
+  },
+  {
+    "word": "officer",
+    "offsetMs": 50275
+  },
+  {
+    "word": "of",
+    "offsetMs": 50800
+  },
+  {
+    "word": "multi-asset",
+    "offsetMs": 50900
+  },
+  {
+    "word": "solutions",
+    "offsetMs": 51600
+  },
+  {
+    "word": "at",
+    "offsetMs": 52212.5
+  },
+  {
+    "word": "Goldman",
+    "offsetMs": 52325
+  },
+  {
+    "word": "Sachs",
+    "offsetMs": 52762.5
+  },
+  {
+    "word": "Asset",
+    "offsetMs": 53100
+  },
+  {
+    "word": "Management",
+    "offsetMs": 53512.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 54200
+  },
+  {
+    "word": "wrote",
+    "offsetMs": 54437.5
+  },
+  {
+    "word": "Tuesday",
+    "offsetMs": 54700
+  },
+  {
+    "word": ".",
+    "offsetMs": 55337.5
+  },
+  {
+    "word": "“Consequently",
+    "offsetMs": 56200
+  },
+  {
+    "word": ",",
+    "offsetMs": 57100
+  },
+  {
+    "word": "we",
+    "offsetMs": 57237.5
+  },
+  {
+    "word": "still",
+    "offsetMs": 57375
+  },
+  {
+    "word": "anticipate",
+    "offsetMs": 57700
+  },
+  {
+    "word": "(",
+    "offsetMs": 58500
+  },
+  {
+    "word": "the",
+    "offsetMs": 58600
+  },
+  {
+    "word": "Federal",
+    "offsetMs": 58725
+  },
+  {
+    "word": "Reserve",
+    "offsetMs": 59137.5
+  },
+  {
+    "word": ")",
+    "offsetMs": 59700
+  },
+  {
+    "word": "remaining",
+    "offsetMs": 59900
+  },
+  {
+    "word": "on",
+    "offsetMs": 60312.5
+  },
+  {
+    "word": "the",
+    "offsetMs": 60412.5
+  },
+  {
+    "word": "sidelines",
+    "offsetMs": 60500
+  },
+  {
+    "word": "in",
+    "offsetMs": 61162.5
+  },
+  {
+    "word": "the",
+    "offsetMs": 61275
+  },
+  {
+    "word": "near",
+    "offsetMs": 61387.5
+  },
+  {
+    "word": "term",
+    "offsetMs": 61650
+  },
+  {
+    "word": "and",
+    "offsetMs": 61950
+  },
+  {
+    "word": "for",
+    "offsetMs": 62062.5
+  },
+  {
+    "word": "markets",
+    "offsetMs": 62237.5
+  },
+  {
+    "word": "to",
+    "offsetMs": 62737.5
+  },
+  {
+    "word": "be",
+    "offsetMs": 62837.5
+  },
+  {
+    "word": "trading",
+    "offsetMs": 62975
+  },
+  {
+    "word": "with",
+    "offsetMs": 63362.5
+  },
+  {
+    "word": "negotiation",
+    "offsetMs": 63512.5
+  },
+  {
+    "word": "and",
+    "offsetMs": 64425
+  },
+  {
+    "word": "reconciliation",
+    "offsetMs": 64562.5
+  },
+  {
+    "word": "headlines",
+    "offsetMs": 65450
+  },
+  {
+    "word": ".",
+    "offsetMs": 66200
+  },
+  {
+    "word": "”\n\nConsumers",
+    "offsetMs": 67050
+  },
+  {
+    "word": "got",
+    "offsetMs": 67737.5
+  },
+  {
+    "word": "some",
+    "offsetMs": 67975
+  },
+  {
+    "word": "relief",
+    "offsetMs": 68200
+  },
+  {
+    "word": "at",
+    "offsetMs": 68575
+  },
+  {
+    "word": "the",
+    "offsetMs": 68650
+  },
+  {
+    "word": "grocery",
+    "offsetMs": 68750
+  },
+  {
+    "word": "store",
+    "offsetMs": 69162.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 69612.5
+  },
+  {
+    "word": "where",
+    "offsetMs": 69837.5
+  },
+  {
+    "word": "prices",
+    "offsetMs": 70000
+  },
+  {
+    "word": "fell",
+    "offsetMs": 70487.5
+  },
+  {
+    "word": "0.4%",
+    "offsetMs": 70725
+  },
+  {
+    "word": "from",
+    "offsetMs": 72025
+  },
+  {
+    "word": "March",
+    "offsetMs": 72175
+  },
+  {
+    "word": ",",
+    "offsetMs": 72725
+  },
+  {
+    "word": "and",
+    "offsetMs": 72962.5
+  },
+  {
+    "word": "that",
+    "offsetMs": 73075
+  },
+  {
+    "word": "brought",
+    "offsetMs": 73287.5
+  },
+  {
+    "word": "down",
+    "offsetMs": 73550
+  },
+  {
+    "word": "overall",
+    "offsetMs": 73887.5
+  },
+  {
+    "word": "food",
+    "offsetMs": 74350
+  },
+  {
+    "word": "prices",
+    "offsetMs": 74637.5
+  },
+  {
+    "word": "by",
+    "offsetMs": 75100
+  },
+  {
+    "word": "0.1%",
+    "offsetMs": 75275
+  },
+  {
+    "word": ".",
+    "offsetMs": 76737.5
+  },
+  {
+    "word": "Egg",
+    "offsetMs": 77600
+  },
+  {
+    "word": "prices",
+    "offsetMs": 77862.5
+  },
+  {
+    "word": "sank",
+    "offsetMs": 78287.5
+  },
+  {
+    "word": "12.7%",
+    "offsetMs": 78600
+  },
+  {
+    "word": "for",
+    "offsetMs": 80000
+  },
+  {
+    "word": "the",
+    "offsetMs": 80125
+  },
+  {
+    "word": "month",
+    "offsetMs": 80212.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 80675
+  },
+  {
+    "word": "reflecting",
+    "offsetMs": 80925
+  },
+  {
+    "word": "declines",
+    "offsetMs": 81462.5
+  },
+  {
+    "word": "seen",
+    "offsetMs": 82012.5
+  },
+  {
+    "word": "on",
+    "offsetMs": 82250
+  },
+  {
+    "word": "the",
+    "offsetMs": 82350
+  },
+  {
+    "word": "wholesale",
+    "offsetMs": 82437.5
+  },
+  {
+    "word": "side",
+    "offsetMs": 82975
+  },
+  {
+    "word": "as",
+    "offsetMs": 83362.5
+  },
+  {
+    "word": "the",
+    "offsetMs": 83500
+  },
+  {
+    "word": "industry",
+    "offsetMs": 83625
+  },
+  {
+    "word": "starts",
+    "offsetMs": 84150
+  },
+  {
+    "word": "to",
+    "offsetMs": 84512.5
+  },
+  {
+    "word": "recover",
+    "offsetMs": 84625
+  },
+  {
+    "word": "from",
+    "offsetMs": 85112.5
+  },
+  {
+    "word": "a",
+    "offsetMs": 85275
+  },
+  {
+    "word": "deadly",
+    "offsetMs": 85362.5
+  },
+  {
+    "word": "bout",
+    "offsetMs": 85712.5
+  },
+  {
+    "word": "of",
+    "offsetMs": 85937.5
+  },
+  {
+    "word": "avian",
+    "offsetMs": 86037.5
+  },
+  {
+    "word": "flu",
+    "offsetMs": 86437.5
+  },
+  {
+    "word": ".",
+    "offsetMs": 86887.5
+  },
+  {
+    "word": "The",
+    "offsetMs": 87750
+  },
+  {
+    "word": "average",
+    "offsetMs": 87950
+  },
+  {
+    "word": "price",
+    "offsetMs": 88387.5
+  },
+  {
+    "word": "of",
+    "offsetMs": 88750
+  },
+  {
+    "word": "a",
+    "offsetMs": 88825
+  },
+  {
+    "word": "dozen",
+    "offsetMs": 88912.5
+  },
+  {
+    "word": "Grade",
+    "offsetMs": 89250
+  },
+  {
+    "word": "A",
+    "offsetMs": 89537.5
+  },
+  {
+    "word": "eggs",
+    "offsetMs": 89662.5
+  },
+  {
+    "word": "fell",
+    "offsetMs": 90037.5
+  },
+  {
+    "word": "from",
+    "offsetMs": 90287.5
+  },
+  {
+    "word": "$6.23 to $5.12",
+    "offsetMs": 90475
+  },
+  {
+    "word": ",",
+    "offsetMs": 94300
+  },
+  {
+    "word": "BLS",
+    "offsetMs": 94525
+  },
+  {
+    "word": "data",
+    "offsetMs": 94987.5
+  },
+  {
+    "word": "shows",
+    "offsetMs": 95237.5
+  },
+  {
+    "word": ".",
+    "offsetMs": 95825
+  },
+  {
+    "word": "Annually",
+    "offsetMs": 96687.5
+  },
+  {
+    "word": ",",
+    "offsetMs": 97362.5
+  },
+  {
+    "word": "egg",
+    "offsetMs": 97475
+  },
+  {
+    "word": "prices",
+    "offsetMs": 97712.5
+  },
+  {
+    "word": "are",
+    "offsetMs": 98162.5
+  },
+  {
+    "word": "up",
+    "offsetMs": 98362.5
+  },
+  {
+    "word": "49.3%",
+    "offsetMs": 98525
+  },
+  {
+    "word": ".",
+    "offsetMs": 100300
+  }
+]

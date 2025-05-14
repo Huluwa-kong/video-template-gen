@@ -1,42 +1,46 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useLayoutEffect, useState, memo, forwardRef } from "react";
 
 type Props = {
   word: string;
+  explain?: string;
   progress: number; // 0 ~ 1
 };
 
-const SingleWordRender: React.FC<Props> = ({ word, progress }) => {
+const SingleWordRenderComponent = forwardRef<HTMLSpanElement, Props>(({ word, progress, explain }, ref) => {
   const wordRef = useRef<HTMLSpanElement>(null);
   const [wordWidth, setWordWidth] = useState(0);
 
-  // 动态获取单词宽度
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (wordRef.current) {
       setWordWidth(wordRef.current.offsetWidth);
     }
   }, [word]);
 
+  const underlineWidth = wordWidth * progress;
+
   return (
-    <span
-      style={{ display: "inline-block", position: "relative", marginRight: 4, fontSize: 24 }}
-    >
-      <span ref={wordRef}>{word}</span>
-      {progress > 0 && (
-        <span
-          style={{
-            position: "absolute",
-            bottom: 0,
-            left: 0,
-            height: 2,
-            backgroundColor: "#007bff", // 可自定义颜色
-            width: wordWidth * progress,
-            transition: "width 50ms linear",
-          }}
-        />
+    <span className='inline-block relative align-bottom mr-1'
+      ref={ref}
+      style={{ lineHeight: `${3}` }}>
+      <span ref={wordRef} className="whitespace-pre">{word}</span>
+      <span
+        className="absolute left-0 h-1 bg-sky-400 "
+        style={{
+          width: `${underlineWidth}px`,
+          bottom: `${15}px`,
+        }}
+      />
+      {explain && (
+        <div className="absolute left-0 text-xs text-gray-500 whitespace-nowrap" style={{
+          bottom: `${-10}px`,
+        }}>
+          {explain}
+        </div>
       )}
     </span>
   );
-};
+})
 
 
+const SingleWordRender = memo(SingleWordRenderComponent);
 export default SingleWordRender;

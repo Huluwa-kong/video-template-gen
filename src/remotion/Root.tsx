@@ -1,6 +1,9 @@
+import './index.css';
+
 import { Composition } from "remotion";
 import { Main } from "@/src/remotion/MyComp/Main";
 import CaptionSpeech from '@/src/remotion/CaptionsSpeech'
+import CaptionSpeechConfig from '@/src/remotion/CaptionsSpeech/config'
 import {
   COMP_NAME,
   defaultMyCompProps,
@@ -10,8 +13,25 @@ import {
   VIDEO_WIDTH,
 } from "@/types/constants";
 import { NextLogo } from "@/src/remotion/MyComp/NextLogo";
+import wordBoundaries from "@/wordBoundaries.json";
+import { useMemo } from "react";
+
 
 export const RemotionRoot: React.FC = () => {
+  // load json from static file
+
+  const wordBoundariesProcess = useMemo(() => {
+    if (!wordBoundaries) return [];
+    // for each word, remove spaces (\n, white space etc)
+    return wordBoundaries.map(({ word, offsetMs }) => {
+      return {
+        word: word.trim().replace(/[\s\u00A0]{2,}/g, ' '),
+        offsetMs,
+        explain: '测试',
+      }
+    })
+  }, [wordBoundaries])
+
   return (
     <>
       <Composition
@@ -37,22 +57,13 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id={'CaptionSpeech'}
         component={CaptionSpeech}
-        durationInFrames={DURATION_IN_FRAMES}
-        fps={VIDEO_FPS}
-        width={VIDEO_WIDTH}
-        height={VIDEO_HEIGHT}
+        durationInFrames={CaptionSpeechConfig.DURATION_IN_FRAMES}
+        fps={CaptionSpeechConfig.VIDEO_FPS}
+        width={CaptionSpeechConfig.VIDEO_WIDTH}
+        height={CaptionSpeechConfig.VIDEO_HEIGHT}
         defaultProps={{
-          audioFilePath: 'output.wav',
-          speechMetaData: [
-            { word: 'This', offsetMs: 50 },
-            { word: 'is', offsetMs: 337.5 },
-            { word: 'an', offsetMs: 450 },
-            { word: 'AI-generated', offsetMs: 637.5 },
-            { word: 'news', offsetMs: 1600 },
-            { word: 'reading', offsetMs: 1887.5 },
-            { word: 'example', offsetMs: 2175 },
-            { word: '.', offsetMs: 2812.5 }
-          ]
+          audioFilePath: 'cnn-news.wav',
+          speechMetaData: wordBoundariesProcess
         }}
       />
     </>
