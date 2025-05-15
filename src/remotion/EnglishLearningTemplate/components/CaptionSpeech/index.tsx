@@ -1,22 +1,19 @@
-import { AbsoluteFill, useCurrentFrame, useVideoConfig, Audio, staticFile,   } from "remotion";
-import { z } from "zod";
+import { AbsoluteFill, useCurrentFrame, useVideoConfig, Audio, staticFile, } from "remotion";
 import SingleWordRender from "@/src/components/SingleWordRender";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { getAudioDurationInSeconds } from "@remotion/media-utils";
 
-export const WordBoundarySchema = z.object({
-  word: z.string(),
-  offsetMs: z.number(),
-  explain: z.string(),
-});
+interface WordBoundaryProps {
+  word: string;
+  offsetMs: number;
+  explain?: string;
+}
 
-export const CaptionSpeechPropsSchema = z.object({
-  audioFilePath: z.string(),
-  speechMetaData: z.array(WordBoundarySchema),
-});
-
-type CaptionSpeechProps = z.infer<typeof CaptionSpeechPropsSchema>;
-
+export interface CaptionSpeechProps {
+  audioFilePath: string;
+  speechMetaData: WordBoundaryProps[];
+  className?: string;
+}
 
 interface ScrollProps {
   baseOffset: number;
@@ -25,7 +22,7 @@ interface ScrollProps {
 }
 
 
-const CaptionSpeech = ({ audioFilePath, speechMetaData }: CaptionSpeechProps) => {
+const CaptionSpeech = ({ audioFilePath, speechMetaData, className }: CaptionSpeechProps) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const [audioDuration, setAudioDuration] = useState<number | null>(null);
@@ -79,14 +76,11 @@ const CaptionSpeech = ({ audioFilePath, speechMetaData }: CaptionSpeechProps) =>
     }
   }, [currentReadingWordIndex,])
 
-  console.log('shift:', offsetYInfo)
-
-
   if (!audioDuration) return <></>;
 
   // translate-y-[-100px]
 
-  return <AbsoluteFill className='bg-white'>
+  return <AbsoluteFill className={className}>
     <div
       className="text-[24px] leading-relaxed font-serif h-[300px] overflow-hidden border border-gray-300"
       ref={parentContainerRef}

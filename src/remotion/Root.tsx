@@ -2,8 +2,8 @@ import './index.css';
 
 import { Composition } from "remotion";
 import { Main } from "@/src/remotion/MyComp/Main";
-import CaptionSpeech from '@/src/remotion/CaptionsSpeech'
-import CaptionSpeechConfig from '@/src/remotion/CaptionsSpeech/config'
+import CaptionSpeech from '@/src/remotion/EnglishLearningTemplate'
+import CaptionSpeechConfig from '@/src/remotion/EnglishLearningTemplate/config'
 import {
   COMP_NAME,
   defaultMyCompProps,
