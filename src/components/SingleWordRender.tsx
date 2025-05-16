@@ -6,7 +6,7 @@ type Props = {
   progress: number; // 0 ~ 1
 };
 
-const SingleWordRenderComponent = forwardRef<HTMLSpanElement, Props>(({ word, progress, explain }, ref) => {
+const SingleWordRenderComponent = forwardRef<HTMLSpanElement, Props>(({ word, progress, explain,  }, ref) => {
   const wordRef = useRef<HTMLSpanElement>(null);
   const [wordWidth, setWordWidth] = useState(0);
 
@@ -16,10 +16,10 @@ const SingleWordRenderComponent = forwardRef<HTMLSpanElement, Props>(({ word, pr
     }
   }, [word]);
 
-  const underlineWidth = wordWidth * progress;
+  const underlineWidth = /^[.,!?'"]$/.test(word) ? 0 : wordWidth * progress;
 
   return (
-    <span className='inline-block relative align-bottom mr-1'
+    <span className='inline-block relative align-bottom'
       ref={ref}
       style={{ lineHeight: `${3}` }}>
       <span ref={wordRef} className="whitespace-pre">{word}</span>

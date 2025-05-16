@@ -2,8 +2,8 @@ import './index.css';
 
 import { Composition } from "remotion";
 import { Main } from "@/src/remotion/MyComp/Main";
-import CaptionSpeech from '@/src/remotion/EnglishLearningTemplate'
-import CaptionSpeechConfig from '@/src/remotion/EnglishLearningTemplate/config'
+import EnglishLearningTemplate from '@/src/remotion/EnglishLearningTemplate'
+import EnglishLearningTemplateConfig from '@/src/remotion/EnglishLearningTemplate/config'
 import {
   COMP_NAME,
   defaultMyCompProps,
@@ -13,7 +13,7 @@ import {
   VIDEO_WIDTH,
 } from "@/types/constants";
 import { NextLogo } from "@/src/remotion/MyComp/NextLogo";
-import wordBoundaries from "@/wordBoundaries.json";
+import wordBoundaries from "@/public/wordBoundaries.json";
 import { useMemo } from "react";
 
 
@@ -55,13 +55,15 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
       <Composition
-        id={'CaptionSpeech'}
-        component={CaptionSpeech}
-        durationInFrames={CaptionSpeechConfig.DURATION_IN_FRAMES}
-        fps={CaptionSpeechConfig.VIDEO_FPS}
-        width={CaptionSpeechConfig.VIDEO_WIDTH}
-        height={CaptionSpeechConfig.VIDEO_HEIGHT}
+        id={'EnglishLearningTemplate'}
+        component={EnglishLearningTemplate}
+        durationInFrames={EnglishLearningTemplateConfig.DURATION_IN_FRAMES}
+        fps={EnglishLearningTemplateConfig.VIDEO_FPS}
+        width={EnglishLearningTemplateConfig.VIDEO_WIDTH}
+        height={EnglishLearningTemplateConfig.VIDEO_HEIGHT}
         defaultProps={{
+          title: '白宫发言：中国不就大些吗？',
+          subTitle: '英语听力/英语口语/快速 积累2000词',
           audioFilePath: 'cnn-news.wav',
           speechMetaData: wordBoundariesProcess
         }}
